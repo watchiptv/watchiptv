@@ -1,0 +1,11 @@
+<settings>
+<category label="WACH TV PLUS">
+     <setting id="xtvmaster" type="bool" label="INICIAR SESION" default="false"/>
+     <setting id="wachusername" type="text" label="INGRESA TU USUARIO" enable="eq(-1,true)" default=""/>
+     <setting id="wachpass" type="text" option="writeable,hidden" label="INGRESA TU CONTRASEÑA" enable="eq(-2,true)" default=""/>
+</category>
+<category label="CONTROL PATERNO">
+	<setting label="Control Paternal " type="lsep" />
+    <setting id="morros" type="bool" label="Activar o desactivar contenido adulto" default="false"/>
+</category>
+</settings>

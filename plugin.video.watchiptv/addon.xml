@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.wachtv" name="WATCH IPTV PLUS" version="1.3" provider-name="STREAMING SERVICES">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <website></website>
+    <description lang="en">Addons oficial de Watch IPTV Plus, disponible tambien para moviles: Android e iOS</description>
+    <forum></forum>
+    <email></email>
+    <disclaimer lang="es"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
